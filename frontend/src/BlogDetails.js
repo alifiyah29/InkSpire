@@ -8,11 +8,11 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch("http://localhost:8000/blogs/" + id);
+  } = useFetch("http://localhost:5000/blogs/" + id);
   const navigate = useNavigate();
 
   const handleClick = () => {
-    fetch(`http://localhost:8000/blogs/` + blog.id, {
+    fetch(`http://localhost:5000/blogs/${id}`, {
       method: "DELETE",
     }).then(() => {
       navigate("/");
@@ -26,7 +26,7 @@ const BlogDetails = () => {
       {blog && (
         <article>
           <h2>{blog.title}</h2>
-          <p>Written By: {blog.author}</p>
+          <p>Author - <i>{blog.author}</i></p>
           <div>{blog.body}</div>
           <button onClick={handleClick}>Delete</button>
         </article>
