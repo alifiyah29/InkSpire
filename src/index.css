@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: #f9e19e;
 }
 .navbar {
   padding: 20px;
@@ -15,7 +16,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #227b94;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,7 +27,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #d29c09;
 }
 .content {
   max-width: 600px;
@@ -38,14 +39,14 @@
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid #d19b07db;
 }
 .blog-preview:hover {
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #78b7d0;
   margin-bottom: 8px;
 }
 
@@ -56,14 +57,14 @@
 /* blog details page */
 .blog-details h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #78b7d0;
   margin-bottom: 10px;
 }
 .blog-details div {
   margin: 20px 0;
 }
 .blog-details button {
-  background: #f1356d;
+  background: #d29c09;
   color: #fff;
   border: 0;
   padding: 8px;
@@ -83,7 +84,7 @@
 }
 .create h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #16325b;
   margin-bottom: 30px;
 }
 .create input,
@@ -92,12 +93,12 @@
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #16325b;
   box-sizing: border-box;
   display: block;
 }
 .create button {
-  background: #f1356d;
+  background: #d29c09;
   color: #fff;
   border: 0;
   padding: 8px;
