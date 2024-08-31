@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/inkspire/static/css/main.9a511136.css",
+    "main.js": "/inkspire/static/js/main.ace94135.js",
+    "index.html": "/inkspire/index.html",
+    "main.9a511136.css.map": "/inkspire/static/css/main.9a511136.css.map",
+    "main.ace94135.js.map": "/inkspire/static/js/main.ace94135.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a511136.css",
+    "static/js/main.ace94135.js"
+  ]
+}
